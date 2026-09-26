@@ -1,0 +1,199 @@
+[16:10:59] INFO     [MainProcess] Reset server metrics                          
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[16:11:00] INFO     [MainProcess] Launching 4 robot process(es)                 
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[robosuite WARNING] To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+[16:11:02] WARNING  [robot_1] No private macro file found!                      
+           WARNING  [robot_0] No private macro file found!                      
+           WARNING  [robot_2] No private macro file found!                      
+           WARNING  [robot_1] It is recommended to use a private macro file     
+           WARNING  [robot_0] It is recommended to use a private macro file     
+           WARNING  [robot_1] To setup, run: python                             
+                    /root/work/armory/.venv/lib/python3.11/site-packages/robosui
+                    te/scripts/setup_macros.py                                  
+           WARNING  [robot_2] It is recommended to use a private macro file     
+           WARNING  [robot_0] To setup, run: python                             
+                    /root/work/armory/.venv/lib/python3.11/site-packages/robosui
+                    te/scripts/setup_macros.py                                  
+           WARNING  [robot_2] To setup, run: python                             
+                    /root/work/armory/.venv/lib/python3.11/site-packages/robosui
+                    te/scripts/setup_macros.py                                  
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+           WARNING  [robot_3] No private macro file found!                      
+           WARNING  [robot_3] It is recommended to use a private macro file     
+           WARNING  [robot_3] To setup, run: python                             
+                    /root/work/armory/.venv/lib/python3.11/site-packages/robosui
+                    te/scripts/setup_macros.py                                  
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[16:11:05] INFO     [robot_0] Connected as robot_id=robot_0                     
+           INFO     [robot_0] Starting episode...                               
+           INFO     [robot_1] Connected as robot_id=robot_1                     
+           INFO     [robot_2] Connected as robot_id=robot_2                     
+           INFO     [robot_3] Connected as robot_id=robot_3                     
+           INFO     [robot_1] Starting episode...                               
+           INFO     [robot_2] Starting episode...                               
+           INFO     [robot_3] Starting episode...                               
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+Explicit CPU rendering: llvmpipe (LLVM 15.0.7, 256 bits)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+Explicit CPU rendering: llvmpipe (LLVM 15.0.7, 256 bits)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+Explicit CPU rendering: llvmpipe (LLVM 15.0.7, 256 bits)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+Explicit CPU rendering: llvmpipe (LLVM 15.0.7, 256 bits)
+[16:11:35] INFO     [robot_0] Episode completed.                                
+           INFO     [robot_0] Starting episode...                               
+[16:11:36] INFO     [robot_0] Saved episode 0 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/0/0_libero_spatial_5_success                         
+[16:11:38] INFO     [robot_1] Episode completed.                                
+           INFO     [robot_1] Starting episode...                               
+           INFO     [robot_1] Saved episode 0 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/1/0_libero_spatial_2_success                         
+[16:11:42] INFO     [robot_2] Episode completed.                                
+           INFO     [robot_2] Starting episode...                               
+[16:11:43] INFO     [robot_2] Saved episode 0 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/2/0_libero_spatial_6_success                         
+[16:12:12] INFO     [robot_1] Episode completed.                                
+           INFO     [robot_1] Starting episode...                               
+           INFO     [robot_1] Saved episode 1 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/1/1_libero_spatial_2_success                         
+[16:12:22] INFO     [robot_2] Episode completed.                                
+           INFO     [robot_2] Starting episode...                               
+           INFO     [robot_2] Saved episode 1 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/2/1_libero_spatial_6_success                         
+[16:12:31] INFO     [robot_3] Episode completed.                                
+           INFO     [robot_3] Starting episode...                               
+           INFO     [robot_3] Saved episode 0 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/3/0_libero_spatial_9_failure                         
+[16:12:46] INFO     [robot_1] Episode completed.                                
+           INFO     [robot_1] Starting episode...                               
+           INFO     [robot_1] Saved episode 2 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/1/2_libero_spatial_2_success                         
+[16:13:02] INFO     [robot_2] Episode truncated by deadline.                    
+           INFO     [robot_2] Starting episode...                               
+[16:13:03] INFO     [robot_0] Episode truncated by deadline.                    
+           INFO     [robot_0] Starting episode...                               
+           INFO     [robot_1] Episode truncated by deadline.                    
+           INFO     [robot_1] Starting episode...                               
+           INFO     [robot_3] Episode truncated by deadline.                    
+           INFO     [robot_3] Starting episode...                               
+           INFO     [robot_2] Saved episode 2 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/2/2_libero_spatial_6_truncated                       
+           INFO     [robot_1] Saved episode 3 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/1/3_libero_spatial_2_truncated                       
+           INFO     [robot_3] Saved episode 1 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/3/1_libero_spatial_9_truncated                       
+           INFO     [robot_0] Saved episode 1 to                                
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/0/1_libero_spatial_5_truncated                       
+[16:13:05] INFO     [robot_2] robot 2: ran 3 episode(s)                         
+           INFO     [robot_0] robot 0: ran 2 episode(s)                         
+           INFO     [robot_1] robot 1: ran 4 episode(s)                         
+           INFO     [robot_3] robot 3: ran 2 episode(s)                         
+                              Task Success Summary                              
+┏━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃             ┃         ┃             ┃           ┃ Total        ┃             ┃
+┃             ┃         ┃ Success     ┃           ┃ Starvation   ┃ Starvation  ┃
+┃ Task Suite  ┃ Task ID ┃ Rate        ┃ Truncated ┃ Steps        ┃ Rate        ┃
+┡━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ libero_spa… │ 2       │ 100.00%     │ 1         │ 32           │ 8.91%       │
+│ libero_spa… │ 5       │ 100.00%     │ 1         │ 28           │ 7.65%       │
+│ libero_spa… │ 6       │ 100.00%     │ 1         │ 26           │ 7.10%       │
+│ libero_spa… │ 9       │ 0.00%       │ 1         │ 28           │ 7.45%       │
+└─────────────┴─────────┴─────────────┴───────────┴──────────────┴─────────────┘
+                           Per-Robot Success Summary                            
+┏━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┓
+┃       ┃              ┃          ┃           ┃ Total         ┃                ┃
+┃       ┃              ┃          ┃           ┃ Starvation    ┃ Starvation     ┃
+┃ Robot ┃ Success Rate ┃ Episodes ┃ Truncated ┃ Steps         ┃ Rate           ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━┩
+│ 0     │ 100.00%      │ 2        │ 1         │ 28            │ 7.65%          │
+│ 1     │ 100.00%      │ 4        │ 1         │ 32            │ 8.91%          │
+│ 2     │ 100.00%      │ 3        │ 1         │ 26            │ 7.10%          │
+│ 3     │ 0.00%        │ 2        │ 1         │ 28            │ 7.45%          │
+└───────┴──────────────┴──────────┴───────────┴───────────────┴────────────────┘
+
+Total success rate: 85.71%
+Total starvation steps: 114 control steps
+Planner starvation rate: 7.77%
+Planner starvation rate (excl. pre-first-action): 3.36%
+Planner starvation time: 5.70s
+Total experiment time: 115.4s (1.9min)
+Throughput: 0.052 successes/second
+[16:13:06] INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/client_step_intervals.png                      
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/success_rate.png                               
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/steps_taken.png                                
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/per_robot_success_rate.png                     
+[16:13:07] INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/actions_left_heatmap.png                       
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/starvation_rate.png                            
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/starvation_variance_over_time.png              
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/staleness_distribution.png                     
+           WARNING  [MainProcess] No server batches; skipping batch size plot   
+           WARNING  [MainProcess] No per-request server timings; skipping       
+                    request timing plot                                         
+[16:13:08] INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/server_timings.png                             
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n4/
+                    client/plots/server_timings_over_time.png                   
+           WARNING  [MainProcess] No server batches; skipping server batch Gantt
+                    plot                                                        

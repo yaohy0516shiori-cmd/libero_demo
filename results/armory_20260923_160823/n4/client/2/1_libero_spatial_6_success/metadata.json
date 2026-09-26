@@ -1,0 +1,10 @@
+{
+    "robot_idx": 2,
+    "success": true,
+    "steps_taken": 122,
+    "task_suite_name": "libero_spatial",
+    "task_id": 6,
+    "task_language": "pick up the black bowl next to the cookie box and place it on the plate",
+    "episode_idx": 1,
+    "truncated": false
+}

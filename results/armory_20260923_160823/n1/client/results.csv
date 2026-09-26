@@ -1,0 +1,4 @@
+robot_idx,success,steps_taken,task_suite_name,task_id,task_language,episode_idx,truncated,starvation_steps,observed_steps,planner_starvation_seconds,post_first_starvation_steps,post_first_observed_steps
+0,False,73,libero_spatial,5,pick up the black bowl on the ramekin and place it on the plate,2,True,2,73,0.1,0,71
+0,True,94,libero_spatial,5,pick up the black bowl on the ramekin and place it on the plate,0,False,3,94,0.15,0,91
+0,False,280,libero_spatial,5,pick up the black bowl on the ramekin and place it on the plate,1,False,3,280,0.15,0,277

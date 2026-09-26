@@ -1,0 +1,72 @@
+2026-09-23 16:10:59,696 [MainProcess] INFO evaluation.server_control_client: Reset server metrics
+2026-09-23 16:11:00,566 [MainProcess] INFO scripts.run: Launching 4 robot process(es)
+2026-09-23 16:11:02,260 [robot_1] WARNING robosuite_logs: No private macro file found!
+2026-09-23 16:11:02,261 [robot_0] WARNING robosuite_logs: No private macro file found!
+2026-09-23 16:11:02,261 [robot_2] WARNING robosuite_logs: No private macro file found!
+2026-09-23 16:11:02,261 [robot_1] WARNING robosuite_logs: It is recommended to use a private macro file
+2026-09-23 16:11:02,261 [robot_0] WARNING robosuite_logs: It is recommended to use a private macro file
+2026-09-23 16:11:02,261 [robot_1] WARNING robosuite_logs: To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+2026-09-23 16:11:02,261 [robot_2] WARNING robosuite_logs: It is recommended to use a private macro file
+2026-09-23 16:11:02,261 [robot_0] WARNING robosuite_logs: To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+2026-09-23 16:11:02,261 [robot_2] WARNING robosuite_logs: To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+2026-09-23 16:11:02,275 [robot_3] WARNING robosuite_logs: No private macro file found!
+2026-09-23 16:11:02,276 [robot_3] WARNING robosuite_logs: It is recommended to use a private macro file
+2026-09-23 16:11:02,276 [robot_3] WARNING robosuite_logs: To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py
+2026-09-23 16:11:05,556 [robot_0] INFO armory_client.client: Connected as robot_id=robot_0
+2026-09-23 16:11:05,621 [robot_0] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:05,655 [robot_1] INFO armory_client.client: Connected as robot_id=robot_1
+2026-09-23 16:11:05,665 [robot_2] INFO armory_client.client: Connected as robot_id=robot_2
+2026-09-23 16:11:05,671 [robot_3] INFO armory_client.client: Connected as robot_id=robot_3
+2026-09-23 16:11:05,753 [robot_1] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:05,764 [robot_2] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:05,769 [robot_3] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:35,881 [robot_0] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:11:35,882 [robot_0] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:36,123 [robot_0] INFO evaluation.save: Saved episode 0 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/0/0_libero_spatial_5_success
+2026-09-23 16:11:38,070 [robot_1] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:11:38,071 [robot_1] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:38,326 [robot_1] INFO evaluation.save: Saved episode 0 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/1/0_libero_spatial_2_success
+2026-09-23 16:11:42,743 [robot_2] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:11:42,747 [robot_2] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:11:43,078 [robot_2] INFO evaluation.save: Saved episode 0 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/2/0_libero_spatial_6_success
+2026-09-23 16:12:12,644 [robot_1] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:12:12,645 [robot_1] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:12:12,813 [robot_1] INFO evaluation.save: Saved episode 1 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/1/1_libero_spatial_2_success
+2026-09-23 16:12:22,741 [robot_2] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:12:22,742 [robot_2] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:12:22,921 [robot_2] INFO evaluation.save: Saved episode 1 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/2/1_libero_spatial_6_success
+2026-09-23 16:12:31,316 [robot_3] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:12:31,317 [robot_3] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:12:31,687 [robot_3] INFO evaluation.save: Saved episode 0 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/3/0_libero_spatial_9_failure
+2026-09-23 16:12:46,574 [robot_1] INFO evaluation.runtime: Episode completed.
+2026-09-23 16:12:46,574 [robot_1] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:12:46,731 [robot_1] INFO evaluation.save: Saved episode 2 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/1/2_libero_spatial_2_success
+2026-09-23 16:13:02,977 [robot_2] INFO evaluation.runtime: Episode truncated by deadline.
+2026-09-23 16:13:02,978 [robot_2] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:13:03,036 [robot_0] INFO evaluation.runtime: Episode truncated by deadline.
+2026-09-23 16:13:03,038 [robot_0] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:13:03,154 [robot_1] INFO evaluation.runtime: Episode truncated by deadline.
+2026-09-23 16:13:03,154 [robot_1] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:13:03,163 [robot_3] INFO evaluation.runtime: Episode truncated by deadline.
+2026-09-23 16:13:03,164 [robot_3] INFO evaluation.runtime: Starting episode...
+2026-09-23 16:13:03,237 [robot_2] INFO evaluation.save: Saved episode 2 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/2/2_libero_spatial_6_truncated
+2026-09-23 16:13:03,303 [robot_1] INFO evaluation.save: Saved episode 3 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/1/3_libero_spatial_2_truncated
+2026-09-23 16:13:03,361 [robot_3] INFO evaluation.save: Saved episode 1 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/3/1_libero_spatial_9_truncated
+2026-09-23 16:13:03,430 [robot_0] INFO evaluation.save: Saved episode 1 to /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/0/1_libero_spatial_5_truncated
+2026-09-23 16:13:05,572 [robot_2] INFO scripts.run: robot 2: ran 3 episode(s)
+2026-09-23 16:13:05,699 [robot_0] INFO scripts.run: robot 0: ran 2 episode(s)
+2026-09-23 16:13:05,745 [robot_1] INFO scripts.run: robot 1: ran 4 episode(s)
+2026-09-23 16:13:05,837 [robot_3] INFO scripts.run: robot 3: ran 2 episode(s)
+2026-09-23 16:13:06,283 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/client_step_intervals.png
+2026-09-23 16:13:06,384 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/success_rate.png
+2026-09-23 16:13:06,572 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/steps_taken.png
+2026-09-23 16:13:06,701 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/per_robot_success_rate.png
+2026-09-23 16:13:07,511 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/actions_left_heatmap.png
+2026-09-23 16:13:07,602 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/starvation_rate.png
+2026-09-23 16:13:07,794 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/starvation_variance_over_time.png
+2026-09-23 16:13:07,900 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/staleness_distribution.png
+2026-09-23 16:13:07,901 [MainProcess] WARNING evaluation.metrics.server: No server batches; skipping batch size plot
+2026-09-23 16:13:07,901 [MainProcess] WARNING evaluation.metrics.server: No per-request server timings; skipping request timing plot
+2026-09-23 16:13:08,084 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/server_timings.png
+2026-09-23 16:13:08,443 [MainProcess] INFO evaluation.metrics.plots: Saved /root/work/libero_vla_demo/output/armory_20260923_160823/n4/client/plots/server_timings_over_time.png
+2026-09-23 16:13:08,444 [MainProcess] WARNING evaluation.metrics.server: No server batches; skipping server batch Gantt plot

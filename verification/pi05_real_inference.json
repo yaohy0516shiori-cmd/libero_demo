@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "model": "lerobot/pi05_libero_finetuned",
+    "revision": "8e174154ef5f6c60a8da12ae99c303d8963138c1",
+    "dtype": "bfloat16",
+    "compile": false,
+    "quantization": false,
+    "action_chunk": 50,
+    "model_load_s": 9.21947543799979,
+    "restored_tied_keys": {
+      "model.paligemma_with_expert.paligemma.model.language_model.embed_tokens.weight": "model.paligemma_with_expert.paligemma.lm_head.weight"
+    },
+    "restored_nonpersistent_buffers": [
+      "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.position_ids",
+      "model.paligemma_with_expert.paligemma.model.language_model.rotary_emb.inv_freq",
+      "model.paligemma_with_expert.gemma_expert.model.rotary_emb.inv_freq"
+    ],
+    "parameter_bytes": 7472956256,
+    "torch": "2.7.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "calls": [
+    {
+      "iteration": 0,
+      "preprocess_ms": 6.060738998712623,
+      "inference_ms": 1512.0586560005904,
+      "postprocess_ms": 3.081172000747756,
+      "embed_prefix_ms": 707.7442919999157,
+      "denoise_step_ms": 225.52954100137867,
+      "peak_allocated_mib": 7292.333984375,
+      "peak_reserved_mib": 7410.0,
+      "action_min": -1.0059372186660767,
+      "action_max": 0.9959730505943298
+    },
+    {
+      "iteration": 1,
+      "preprocess_ms": 1.681493999058148,
+      "inference_ms": 463.1134720002592,
+      "postprocess_ms": 0.1970209996215999,
+      "embed_prefix_ms": 42.82621299898892,
+      "denoise_step_ms": 180.56843100202968,
+      "peak_allocated_mib": 7292.3779296875,
+      "peak_reserved_mib": 7410.0,
+      "action_min": -1.0110573768615723,
+      "action_max": 0.9967276453971863
+    }
+  ]
+}

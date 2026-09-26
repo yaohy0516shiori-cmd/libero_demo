@@ -1,0 +1,40 @@
+{
+    "json_path": null,
+    "experiment_config": {
+        "environment": {
+            "kind": "libero",
+            "task_suite_name": "libero_spatial",
+            "max_steps_per_episode": 280,
+            "task_seed": null
+        },
+        "robots": [
+            {
+                "execution_horizon": {
+                    "min": 1,
+                    "max": 10
+                },
+                "control_hz": 20,
+                "observation_latency": {
+                    "median": 0.0,
+                    "sigma": 0.0
+                },
+                "action_latency": {
+                    "median": 0.0,
+                    "sigma": 0.0
+                },
+                "weight": 1.0
+            }
+        ],
+        "time_limit": 120.0,
+        "seed": 7
+    },
+    "scheduler_config": {
+        "scheduling_algorithm": "greedy-deadline",
+        "alpha": 1.0
+    },
+    "agent": "policy",
+    "host": "127.0.0.1",
+    "port": 8080,
+    "output_dir": "/root/work/libero_vla_demo/output/armory_20260923_160823/n1/client",
+    "overwrite": false
+}

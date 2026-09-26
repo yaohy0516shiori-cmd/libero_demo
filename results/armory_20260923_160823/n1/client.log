@@ -1,0 +1,96 @@
+[16:08:37] INFO     [MainProcess] Reset server metrics                          
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[16:08:38] INFO     [MainProcess] Running 1 robot inline                        
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[robosuite WARNING] No private macro file found! (macros.py:53)
+           WARNING  [MainProcess] No private macro file found!                  
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+           WARNING  [MainProcess] It is recommended to use a private macro file 
+[robosuite WARNING] To setup, run: python /root/work/armory/.venv/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+           WARNING  [MainProcess] To setup, run: python                         
+                    /root/work/armory/.venv/lib/python3.11/site-packages/robosui
+                    te/scripts/setup_macros.py                                  
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /root/work/armory/third_party/libero/libero/libero/../datasets does not exist!
+[16:08:40] INFO     [MainProcess] Connected as robot_id=robot_0                 
+           INFO     [MainProcess] Starting episode...                           
+Explicit CPU rendering: llvmpipe (LLVM 15.0.7, 256 bits)
+[16:09:05] INFO     [MainProcess] Episode completed.                            
+           INFO     [MainProcess] Starting episode...                           
+[16:09:06] INFO     [MainProcess] Saved episode 0 to                            
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/0/0_libero_spatial_5_success                         
+[16:10:17] INFO     [MainProcess] Episode completed.                            
+           INFO     [MainProcess] Starting episode...                           
+           INFO     [MainProcess] Saved episode 1 to                            
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/0/1_libero_spatial_5_failure                         
+[16:10:37] INFO     [MainProcess] Episode truncated by deadline.                
+           INFO     [MainProcess] Starting episode...                           
+           INFO     [MainProcess] Saved episode 2 to                            
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/0/2_libero_spatial_5_truncated                       
+[16:10:39] INFO     [MainProcess] robot 0: ran 3 episode(s)                     
+                              Task Success Summary                              
+┏━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
+┃             ┃         ┃             ┃           ┃ Total        ┃             ┃
+┃             ┃         ┃ Success     ┃           ┃ Starvation   ┃ Starvation  ┃
+┃ Task Suite  ┃ Task ID ┃ Rate        ┃ Truncated ┃ Steps        ┃ Rate        ┃
+┡━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
+│ libero_spa… │ 5       │ 50.00%      │ 1         │ 8            │ 1.79%       │
+└─────────────┴─────────┴─────────────┴───────────┴──────────────┴─────────────┘
+                           Per-Robot Success Summary                            
+┏━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┓
+┃       ┃              ┃          ┃           ┃ Total         ┃                ┃
+┃       ┃              ┃          ┃           ┃ Starvation    ┃ Starvation     ┃
+┃ Robot ┃ Success Rate ┃ Episodes ┃ Truncated ┃ Steps         ┃ Rate           ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━┩
+│ 0     │ 50.00%       │ 3        │ 1         │ 8             │ 1.79%          │
+└───────┴──────────────┴──────────┴───────────┴───────────────┴────────────────┘
+
+Total success rate: 50.00%
+Total starvation steps: 8 control steps
+Planner starvation rate: 1.79%
+Planner starvation rate (excl. pre-first-action): 0.00%
+Planner starvation time: 0.40s
+Total experiment time: 114.0s (1.9min)
+Throughput: 0.009 successes/second
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/client_step_intervals.png                      
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/success_rate.png                               
+[16:10:40] INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/steps_taken.png                                
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/per_robot_success_rate.png                     
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/actions_left_heatmap.png                       
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/starvation_rate.png                            
+[16:10:41] INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/starvation_variance_over_time.png              
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/staleness_distribution.png                     
+           WARNING  [MainProcess] No server batches; skipping batch size plot   
+           WARNING  [MainProcess] No per-request server timings; skipping       
+                    request timing plot                                         
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/server_timings.png                             
+           INFO     [MainProcess] Saved                                         
+                    /root/work/libero_vla_demo/output/armory_20260923_160823/n1/
+                    client/plots/server_timings_over_time.png                   
+           WARNING  [MainProcess] No server batches; skipping server batch Gantt
+                    plot                                                        

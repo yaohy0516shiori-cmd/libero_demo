@@ -1,0 +1,2 @@
+task_suite_name,task_id,truncated,starvation_steps,observed_steps,planner_starvation_seconds,post_first_starvation_steps,post_first_observed_steps,success,planner_starvation_rate,post_first_starvation_rate
+libero_spatial,5,1,8,447,0.4,0,439,0.5,0.017897091722595078,0.0

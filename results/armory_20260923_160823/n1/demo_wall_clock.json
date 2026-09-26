@@ -1,0 +1,7 @@
+{
+  "time_basis": "monotonic_elapsed_real_time",
+  "playback_speed": 2,
+  "output_fps": 10,
+  "wall_duration_s": 120.18148307200136,
+  "source": "recorded simulation frames and Armory inference timestamps"
+}

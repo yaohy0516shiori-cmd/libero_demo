@@ -1,0 +1,26 @@
+# Python and local environments
+.venv/
+.cache/
+__pycache__/
+
+# Model weights: the checkpoint file alone is 7.5 GB, and pi0.5 builds on PaliGemma/Gemma,
+# whose licence restricts redistribution. Download with tools/download_model.py (pinned
+# revision) and check against verification/checkpoint_sha256.txt; see README.
+models/
+
+# Videos are not stored (~34 MB); all other results (csv, json, logs, figures) are kept.
+*.mp4
+
+# Earlier approaches, superseded probes and run history stay local. The one piece of
+# evidence still cited, the GPU-rendering comparison, is in results/gpu_rendering_comparison/.
+archive/
+
+# Documentation lives in the top-level README.md; older per-folder notes stay local.
+docs/
+results/README.md
+verification/README.md
+libero_test/audit/README.md
+
+# From libero_test/ only the environment probes (audit/) are published.
+libero_test/*
+!libero_test/audit/

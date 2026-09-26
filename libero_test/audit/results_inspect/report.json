@@ -1,0 +1,2731 @@
+{
+  "versions": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+    "executable": "/root/work/armory/.venv/bin/python",
+    "packages": {
+      "robosuite": "1.4.1",
+      "mujoco": "3.7.0",
+      "numpy": "2.4.4",
+      "gym": "0.26.2",
+      "libero": "0.1.0"
+    },
+    "libero_git": {
+      "commit": "65a492ad4019afb1c69372449e2600d3199bb93c",
+      "changes": ""
+    },
+    "MUJOCO_GL": "egl",
+    "args": {
+      "section": "inspect",
+      "suite": "libero_10",
+      "task": 0,
+      "init": 0,
+      "steps": 100,
+      "max_wait": 200,
+      "window": 20,
+      "init_count": 1,
+      "all_tasks": false,
+      "out": "/root/work/libero_test/audit/results_inspect_01"
+    }
+  },
+  "task_list": [
+    {
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 1,
+      "name": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl next to the ramekin and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 2,
+      "name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl from table center and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 3,
+      "name": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl on the cookie box and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "name": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 5,
+      "name": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl on the ramekin and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 6,
+      "name": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl next to the cookie box and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 7,
+      "name": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl on the stove and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 8,
+      "name": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl next to the plate and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 9,
+      "name": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+      "prompt": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "bddl": "pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 0,
+      "name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+      "prompt": "pick up the alphabet soup and place it in the basket",
+      "bddl": "pick_up_the_alphabet_soup_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 1,
+      "name": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+      "prompt": "pick up the cream cheese and place it in the basket",
+      "bddl": "pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 2,
+      "name": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+      "prompt": "pick up the salad dressing and place it in the basket",
+      "bddl": "pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 3,
+      "name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+      "prompt": "pick up the bbq sauce and place it in the basket",
+      "bddl": "pick_up_the_bbq_sauce_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 4,
+      "name": "pick_up_the_ketchup_and_place_it_in_the_basket",
+      "prompt": "pick up the ketchup and place it in the basket",
+      "bddl": "pick_up_the_ketchup_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 5,
+      "name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+      "prompt": "pick up the tomato sauce and place it in the basket",
+      "bddl": "pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 6,
+      "name": "pick_up_the_butter_and_place_it_in_the_basket",
+      "prompt": "pick up the butter and place it in the basket",
+      "bddl": "pick_up_the_butter_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 7,
+      "name": "pick_up_the_milk_and_place_it_in_the_basket",
+      "prompt": "pick up the milk and place it in the basket",
+      "bddl": "pick_up_the_milk_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 8,
+      "name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+      "prompt": "pick up the chocolate pudding and place it in the basket",
+      "bddl": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 9,
+      "name": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+      "prompt": "pick up the orange juice and place it in the basket",
+      "bddl": "pick_up_the_orange_juice_and_place_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 0,
+      "name": "open_the_middle_drawer_of_the_cabinet",
+      "prompt": "open the middle drawer of the cabinet",
+      "bddl": "open_the_middle_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 1,
+      "name": "put_the_bowl_on_the_stove",
+      "prompt": "put the bowl on the stove",
+      "bddl": "put_the_bowl_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 2,
+      "name": "put_the_wine_bottle_on_top_of_the_cabinet",
+      "prompt": "put the wine bottle on top of the cabinet",
+      "bddl": "put_the_wine_bottle_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 3,
+      "name": "open_the_top_drawer_and_put_the_bowl_inside",
+      "prompt": "open the top drawer and put the bowl inside",
+      "bddl": "open_the_top_drawer_and_put_the_bowl_inside.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 4,
+      "name": "put_the_bowl_on_top_of_the_cabinet",
+      "prompt": "put the bowl on top of the cabinet",
+      "bddl": "put_the_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 5,
+      "name": "push_the_plate_to_the_front_of_the_stove",
+      "prompt": "push the plate to the front of the stove",
+      "bddl": "push_the_plate_to_the_front_of_the_stove.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 6,
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "prompt": "put the cream cheese in the bowl",
+      "bddl": "put_the_cream_cheese_in_the_bowl.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 7,
+      "name": "turn_on_the_stove",
+      "prompt": "turn on the stove",
+      "bddl": "turn_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 8,
+      "name": "put_the_bowl_on_the_plate",
+      "prompt": "put the bowl on the plate",
+      "bddl": "put_the_bowl_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_goal",
+      "task_id": 9,
+      "name": "put_the_wine_bottle_on_the_rack",
+      "prompt": "put the wine bottle on the rack",
+      "bddl": "put_the_wine_bottle_on_the_rack.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 0,
+      "name": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet",
+      "prompt": "close the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 1,
+      "name": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it",
+      "prompt": "close the top drawer of the cabinet and put the black bowl on top of it",
+      "bddl": "KITCHEN_SCENE10_close_the_top_drawer_of_the_cabinet_and_put_the_black_bowl_on_top_of_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 2,
+      "name": "KITCHEN_SCENE10_put_the_black_bowl_in_the_top_drawer_of_the_cabinet",
+      "prompt": "put the black bowl in the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE10_put_the_black_bowl_in_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 3,
+      "name": "KITCHEN_SCENE10_put_the_butter_at_the_back_in_the_top_drawer_of_the_cabinet_and_close_it",
+      "prompt": "put the butter at the back in the top drawer of the cabinet and close it",
+      "bddl": "KITCHEN_SCENE10_put_the_butter_at_the_back_in_the_top_drawer_of_the_cabinet_and_close_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 4,
+      "name": "KITCHEN_SCENE10_put_the_butter_at_the_front_in_the_top_drawer_of_the_cabinet_and_close_it",
+      "prompt": "put the butter at the front in the top drawer of the cabinet and close it",
+      "bddl": "KITCHEN_SCENE10_put_the_butter_at_the_front_in_the_top_drawer_of_the_cabinet_and_close_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 5,
+      "name": "KITCHEN_SCENE10_put_the_chocolate_pudding_in_the_top_drawer_of_the_cabinet_and_close_it",
+      "prompt": "put the chocolate pudding in the top drawer of the cabinet and close it",
+      "bddl": "KITCHEN_SCENE10_put_the_chocolate_pudding_in_the_top_drawer_of_the_cabinet_and_close_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 6,
+      "name": "KITCHEN_SCENE1_open_the_bottom_drawer_of_the_cabinet",
+      "prompt": "open the bottom drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE1_open_the_bottom_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 7,
+      "name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet",
+      "prompt": "open the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 8,
+      "name": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it",
+      "prompt": "open the top drawer of the cabinet and put the bowl in it",
+      "bddl": "KITCHEN_SCENE1_open_the_top_drawer_of_the_cabinet_and_put_the_bowl_in_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 9,
+      "name": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate",
+      "prompt": "put the black bowl on the plate",
+      "bddl": "KITCHEN_SCENE1_put_the_black_bowl_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 10,
+      "name": "KITCHEN_SCENE1_put_the_black_bowl_on_top_of_the_cabinet",
+      "prompt": "put the black bowl on top of the cabinet",
+      "bddl": "KITCHEN_SCENE1_put_the_black_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 11,
+      "name": "KITCHEN_SCENE2_open_the_top_drawer_of_the_cabinet",
+      "prompt": "open the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE2_open_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 12,
+      "name": "KITCHEN_SCENE2_put_the_black_bowl_at_the_back_on_the_plate",
+      "prompt": "put the black bowl at the back on the plate",
+      "bddl": "KITCHEN_SCENE2_put_the_black_bowl_at_the_back_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 13,
+      "name": "KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate",
+      "prompt": "put the black bowl at the front on the plate",
+      "bddl": "KITCHEN_SCENE2_put_the_black_bowl_at_the_front_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 14,
+      "name": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_the_plate",
+      "prompt": "put the middle black bowl on the plate",
+      "bddl": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 15,
+      "name": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_top_of_the_cabinet",
+      "prompt": "put the middle black bowl on top of the cabinet",
+      "bddl": "KITCHEN_SCENE2_put_the_middle_black_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 16,
+      "name": "KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle",
+      "prompt": "stack the black bowl at the front on the black bowl in the middle",
+      "bddl": "KITCHEN_SCENE2_stack_the_black_bowl_at_the_front_on_the_black_bowl_in_the_middle.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 17,
+      "name": "KITCHEN_SCENE2_stack_the_middle_black_bowl_on_the_back_black_bowl",
+      "prompt": "stack the middle black bowl on the back black bowl",
+      "bddl": "KITCHEN_SCENE2_stack_the_middle_black_bowl_on_the_back_black_bowl.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 18,
+      "name": "KITCHEN_SCENE3_put_the_frying_pan_on_the_stove",
+      "prompt": "put the frying pan on the stove",
+      "bddl": "KITCHEN_SCENE3_put_the_frying_pan_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 19,
+      "name": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove",
+      "prompt": "put the moka pot on the stove",
+      "bddl": "KITCHEN_SCENE3_put_the_moka_pot_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 20,
+      "name": "KITCHEN_SCENE3_turn_on_the_stove",
+      "prompt": "turn on the stove",
+      "bddl": "KITCHEN_SCENE3_turn_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 21,
+      "name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_frying_pan_on_it",
+      "prompt": "turn on the stove and put the frying pan on it",
+      "bddl": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_frying_pan_on_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 22,
+      "name": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet",
+      "prompt": "close the bottom drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 23,
+      "name": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer",
+      "prompt": "close the bottom drawer of the cabinet and open the top drawer",
+      "bddl": "KITCHEN_SCENE4_close_the_bottom_drawer_of_the_cabinet_and_open_the_top_drawer.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 24,
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet",
+      "prompt": "put the black bowl in the bottom drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 25,
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_on_top_of_the_cabinet",
+      "prompt": "put the black bowl on top of the cabinet",
+      "bddl": "KITCHEN_SCENE4_put_the_black_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 26,
+      "name": "KITCHEN_SCENE4_put_the_wine_bottle_in_the_bottom_drawer_of_the_cabinet",
+      "prompt": "put the wine bottle in the bottom drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE4_put_the_wine_bottle_in_the_bottom_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 27,
+      "name": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack",
+      "prompt": "put the wine bottle on the wine rack",
+      "bddl": "KITCHEN_SCENE4_put_the_wine_bottle_on_the_wine_rack.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 28,
+      "name": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet",
+      "prompt": "close the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 29,
+      "name": "KITCHEN_SCENE5_put_the_black_bowl_in_the_top_drawer_of_the_cabinet",
+      "prompt": "put the black bowl in the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE5_put_the_black_bowl_in_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 30,
+      "name": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate",
+      "prompt": "put the black bowl on the plate",
+      "bddl": "KITCHEN_SCENE5_put_the_black_bowl_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 31,
+      "name": "KITCHEN_SCENE5_put_the_black_bowl_on_top_of_the_cabinet",
+      "prompt": "put the black bowl on top of the cabinet",
+      "bddl": "KITCHEN_SCENE5_put_the_black_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 32,
+      "name": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet",
+      "prompt": "put the ketchup in the top drawer of the cabinet",
+      "bddl": "KITCHEN_SCENE5_put_the_ketchup_in_the_top_drawer_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 33,
+      "name": "KITCHEN_SCENE6_close_the_microwave",
+      "prompt": "close the microwave",
+      "bddl": "KITCHEN_SCENE6_close_the_microwave.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 34,
+      "name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug",
+      "prompt": "put the yellow and white mug to the front of the white mug",
+      "bddl": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_to_the_front_of_the_white_mug.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 35,
+      "name": "KITCHEN_SCENE7_open_the_microwave",
+      "prompt": "open the microwave",
+      "bddl": "KITCHEN_SCENE7_open_the_microwave.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 36,
+      "name": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate",
+      "prompt": "put the white bowl on the plate",
+      "bddl": "KITCHEN_SCENE7_put_the_white_bowl_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 37,
+      "name": "KITCHEN_SCENE7_put_the_white_bowl_to_the_right_of_the_plate",
+      "prompt": "put the white bowl to the right of the plate",
+      "bddl": "KITCHEN_SCENE7_put_the_white_bowl_to_the_right_of_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 38,
+      "name": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove",
+      "prompt": "put the right moka pot on the stove",
+      "bddl": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 39,
+      "name": "KITCHEN_SCENE8_turn_off_the_stove",
+      "prompt": "turn off the stove",
+      "bddl": "KITCHEN_SCENE8_turn_off_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 40,
+      "name": "KITCHEN_SCENE9_put_the_frying_pan_on_the_cabinet_shelf",
+      "prompt": "put the frying pan on the cabinet shelf",
+      "bddl": "KITCHEN_SCENE9_put_the_frying_pan_on_the_cabinet_shelf.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 41,
+      "name": "KITCHEN_SCENE9_put_the_frying_pan_on_top_of_the_cabinet",
+      "prompt": "put the frying pan on top of the cabinet",
+      "bddl": "KITCHEN_SCENE9_put_the_frying_pan_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 42,
+      "name": "KITCHEN_SCENE9_put_the_frying_pan_under_the_cabinet_shelf",
+      "prompt": "put the frying pan under the cabinet shelf",
+      "bddl": "KITCHEN_SCENE9_put_the_frying_pan_under_the_cabinet_shelf.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 43,
+      "name": "KITCHEN_SCENE9_put_the_white_bowl_on_top_of_the_cabinet",
+      "prompt": "put the white bowl on top of the cabinet",
+      "bddl": "KITCHEN_SCENE9_put_the_white_bowl_on_top_of_the_cabinet.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 44,
+      "name": "KITCHEN_SCENE9_turn_on_the_stove",
+      "prompt": "turn on the stove",
+      "bddl": "KITCHEN_SCENE9_turn_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 45,
+      "name": "KITCHEN_SCENE9_turn_on_the_stove_and_put_the_frying_pan_on_it",
+      "prompt": "turn on the stove and put the frying pan on it",
+      "bddl": "KITCHEN_SCENE9_turn_on_the_stove_and_put_the_frying_pan_on_it.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 46,
+      "name": "LIVING_ROOM_SCENE1_pick_up_the_alphabet_soup_and_put_it_in_the_basket",
+      "prompt": "pick up the alphabet soup and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE1_pick_up_the_alphabet_soup_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 47,
+      "name": "LIVING_ROOM_SCENE1_pick_up_the_cream_cheese_box_and_put_it_in_the_basket",
+      "prompt": "pick up the cream cheese box and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE1_pick_up_the_cream_cheese_box_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 48,
+      "name": "LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket",
+      "prompt": "pick up the ketchup and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE1_pick_up_the_ketchup_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 49,
+      "name": "LIVING_ROOM_SCENE1_pick_up_the_tomato_sauce_and_put_it_in_the_basket",
+      "prompt": "pick up the tomato sauce and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE1_pick_up_the_tomato_sauce_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 50,
+      "name": "LIVING_ROOM_SCENE2_pick_up_the_alphabet_soup_and_put_it_in_the_basket",
+      "prompt": "pick up the alphabet soup and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_pick_up_the_alphabet_soup_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 51,
+      "name": "LIVING_ROOM_SCENE2_pick_up_the_butter_and_put_it_in_the_basket",
+      "prompt": "pick up the butter and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_pick_up_the_butter_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 52,
+      "name": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket",
+      "prompt": "pick up the milk and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_pick_up_the_milk_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 53,
+      "name": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket",
+      "prompt": "pick up the orange juice and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_pick_up_the_orange_juice_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 54,
+      "name": "LIVING_ROOM_SCENE2_pick_up_the_tomato_sauce_and_put_it_in_the_basket",
+      "prompt": "pick up the tomato sauce and put it in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_pick_up_the_tomato_sauce_and_put_it_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 55,
+      "name": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray",
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 56,
+      "name": "LIVING_ROOM_SCENE3_pick_up_the_butter_and_put_it_in_the_tray",
+      "prompt": "pick up the butter and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE3_pick_up_the_butter_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 57,
+      "name": "LIVING_ROOM_SCENE3_pick_up_the_cream_cheese_and_put_it_in_the_tray",
+      "prompt": "pick up the cream cheese and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE3_pick_up_the_cream_cheese_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 58,
+      "name": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray",
+      "prompt": "pick up the ketchup and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE3_pick_up_the_ketchup_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 59,
+      "name": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray",
+      "prompt": "pick up the tomato sauce and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE3_pick_up_the_tomato_sauce_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 60,
+      "name": "LIVING_ROOM_SCENE4_pick_up_the_black_bowl_on_the_left_and_put_it_in_the_tray",
+      "prompt": "pick up the black bowl on the left and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE4_pick_up_the_black_bowl_on_the_left_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 61,
+      "name": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray",
+      "prompt": "pick up the chocolate pudding and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE4_pick_up_the_chocolate_pudding_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 62,
+      "name": "LIVING_ROOM_SCENE4_pick_up_the_salad_dressing_and_put_it_in_the_tray",
+      "prompt": "pick up the salad dressing and put it in the tray",
+      "bddl": "LIVING_ROOM_SCENE4_pick_up_the_salad_dressing_and_put_it_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 63,
+      "name": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray",
+      "prompt": "stack the left bowl on the right bowl and place them in the tray",
+      "bddl": "LIVING_ROOM_SCENE4_stack_the_left_bowl_on_the_right_bowl_and_place_them_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 64,
+      "name": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray",
+      "prompt": "stack the right bowl on the left bowl and place them in the tray",
+      "bddl": "LIVING_ROOM_SCENE4_stack_the_right_bowl_on_the_left_bowl_and_place_them_in_the_tray.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 65,
+      "name": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate",
+      "prompt": "put the red mug on the left plate",
+      "bddl": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_left_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 66,
+      "name": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_right_plate",
+      "prompt": "put the red mug on the right plate",
+      "bddl": "LIVING_ROOM_SCENE5_put_the_red_mug_on_the_right_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 67,
+      "name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate",
+      "prompt": "put the white mug on the left plate",
+      "bddl": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 68,
+      "name": "LIVING_ROOM_SCENE5_put_the_yellow_and_white_mug_on_the_right_plate",
+      "prompt": "put the yellow and white mug on the right plate",
+      "bddl": "LIVING_ROOM_SCENE5_put_the_yellow_and_white_mug_on_the_right_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 69,
+      "name": "LIVING_ROOM_SCENE6_put_the_chocolate_pudding_to_the_left_of_the_plate",
+      "prompt": "put the chocolate pudding to the left of the plate",
+      "bddl": "LIVING_ROOM_SCENE6_put_the_chocolate_pudding_to_the_left_of_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 70,
+      "name": "LIVING_ROOM_SCENE6_put_the_chocolate_pudding_to_the_right_of_the_plate",
+      "prompt": "put the chocolate pudding to the right of the plate",
+      "bddl": "LIVING_ROOM_SCENE6_put_the_chocolate_pudding_to_the_right_of_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 71,
+      "name": "LIVING_ROOM_SCENE6_put_the_red_mug_on_the_plate",
+      "prompt": "put the red mug on the plate",
+      "bddl": "LIVING_ROOM_SCENE6_put_the_red_mug_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 72,
+      "name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate",
+      "prompt": "put the white mug on the plate",
+      "bddl": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 73,
+      "name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the front compartment of the caddy",
+      "bddl": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 74,
+      "name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the left compartment of the caddy",
+      "bddl": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 75,
+      "name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the right compartment of the caddy",
+      "bddl": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 76,
+      "name": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy",
+      "prompt": "pick up the yellow and white mug and place it to the right of the caddy",
+      "bddl": "STUDY_SCENE1_pick_up_the_yellow_and_white_mug_and_place_it_to_the_right_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 77,
+      "name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the back compartment of the caddy",
+      "bddl": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 78,
+      "name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the front compartment of the caddy",
+      "bddl": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 79,
+      "name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the left compartment of the caddy",
+      "bddl": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 80,
+      "name": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the right compartment of the caddy",
+      "bddl": "STUDY_SCENE2_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 81,
+      "name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the front compartment of the caddy",
+      "bddl": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_front_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 82,
+      "name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the left compartment of the caddy",
+      "bddl": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_left_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 83,
+      "name": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the right compartment of the caddy",
+      "bddl": "STUDY_SCENE3_pick_up_the_book_and_place_it_in_the_right_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 84,
+      "name": "STUDY_SCENE3_pick_up_the_red_mug_and_place_it_to_the_right_of_the_caddy",
+      "prompt": "pick up the red mug and place it to the right of the caddy",
+      "bddl": "STUDY_SCENE3_pick_up_the_red_mug_and_place_it_to_the_right_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 85,
+      "name": "STUDY_SCENE3_pick_up_the_white_mug_and_place_it_to_the_right_of_the_caddy",
+      "prompt": "pick up the white mug and place it to the right of the caddy",
+      "bddl": "STUDY_SCENE3_pick_up_the_white_mug_and_place_it_to_the_right_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 86,
+      "name": "STUDY_SCENE4_pick_up_the_book_in_the_middle_and_place_it_on_the_cabinet_shelf",
+      "prompt": "pick up the book in the middle and place it on the cabinet shelf",
+      "bddl": "STUDY_SCENE4_pick_up_the_book_in_the_middle_and_place_it_on_the_cabinet_shelf.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 87,
+      "name": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf",
+      "prompt": "pick up the book on the left and place it on top of the shelf",
+      "bddl": "STUDY_SCENE4_pick_up_the_book_on_the_left_and_place_it_on_top_of_the_shelf.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 88,
+      "name": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf",
+      "prompt": "pick up the book on the right and place it on the cabinet shelf",
+      "bddl": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_on_the_cabinet_shelf.bddl"
+    },
+    {
+      "suite": "libero_90",
+      "task_id": 89,
+      "name": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_under_the_cabinet_shelf",
+      "prompt": "pick up the book on the right and place it under the cabinet shelf",
+      "bddl": "STUDY_SCENE4_pick_up_the_book_on_the_right_and_place_it_under_the_cabinet_shelf.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 0,
+      "name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "prompt": "put both the alphabet soup and the tomato sauce in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 1,
+      "name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+      "prompt": "put both the cream cheese box and the butter in the basket",
+      "bddl": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 2,
+      "name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+      "prompt": "turn on the stove and put the moka pot on it",
+      "bddl": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 3,
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "prompt": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "bddl": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 4,
+      "name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "prompt": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "bddl": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 5,
+      "name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+      "prompt": "pick up the book and place it in the back compartment of the caddy",
+      "bddl": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 6,
+      "name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "bddl": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 7,
+      "name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+      "prompt": "put both the alphabet soup and the cream cheese box in the basket",
+      "bddl": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 8,
+      "name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "prompt": "put both moka pots on the stove",
+      "bddl": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl"
+    },
+    {
+      "suite": "libero_10",
+      "task_id": 9,
+      "name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "prompt": "put the yellow and white mug in the microwave and close it",
+      "bddl": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl"
+    }
+  ],
+  "task_inventory": {
+    "counts": {
+      "libero_spatial": 10,
+      "libero_object": 10,
+      "libero_goal": 10,
+      "libero_90": 90,
+      "libero_10": 10
+    },
+    "total": 130,
+    "scene_labels_in_task_names": [
+      "KITCHEN_SCENE1",
+      "KITCHEN_SCENE10",
+      "KITCHEN_SCENE2",
+      "KITCHEN_SCENE3",
+      "KITCHEN_SCENE4",
+      "KITCHEN_SCENE5",
+      "KITCHEN_SCENE6",
+      "KITCHEN_SCENE7",
+      "KITCHEN_SCENE8",
+      "KITCHEN_SCENE9",
+      "LIVING_ROOM_SCENE1",
+      "LIVING_ROOM_SCENE2",
+      "LIVING_ROOM_SCENE3",
+      "LIVING_ROOM_SCENE4",
+      "LIVING_ROOM_SCENE5",
+      "LIVING_ROOM_SCENE6",
+      "STUDY_SCENE1",
+      "STUDY_SCENE2",
+      "STUDY_SCENE3",
+      "STUDY_SCENE4"
+    ]
+  },
+  "task": {
+    "name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "prompt": "put both the alphabet soup and the tomato sauce in the basket",
+    "bddl": "/root/work/armory/third_party/libero/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+    "parsed": {
+      "problem_name": "libero_living_room_tabletop_manipulation",
+      "fixtures": {
+        "living_room_table": [
+          "living_room_table"
+        ]
+      },
+      "regions": {
+        "living_room_table_basket_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              -0.01,
+              0.25,
+              0.01,
+              0.27
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_milk_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              0.025,
+              -0.125,
+              0.07500000000000001,
+              -0.07500000000000001
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_cream_cheese_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              0.07500000000000001,
+              -0.225,
+              0.125,
+              -0.17500000000000002
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_orange_juice_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              -0.025,
+              -0.275,
+              0.025,
+              -0.225
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_tomato_sauce_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              -0.125,
+              0.025,
+              -0.07500000000000001,
+              0.07500000000000001
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_alphabet_soup_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              -0.125,
+              -0.175,
+              -0.07500000000000001,
+              -0.125
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_butter_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              0.025,
+              0.025,
+              0.07500000000000001,
+              0.07500000000000001
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "living_room_table_ketchup_init_region": {
+          "target": "living_room_table",
+          "ranges": [
+            [
+              -0.275,
+              -0.175,
+              -0.225,
+              -0.125
+            ]
+          ],
+          "extra": [],
+          "yaw_rotation": [
+            0.0,
+            0.0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "basket_1_contain_region": {
+          "target": "basket_1",
+          "ranges": [],
+          "extra": [],
+          "yaw_rotation": [
+            0,
+            0
+          ],
+          "rgba": [
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      },
+      "objects": {
+        "alphabet_soup": [
+          "alphabet_soup_1"
+        ],
+        "cream_cheese": [
+          "cream_cheese_1"
+        ],
+        "tomato_sauce": [
+          "tomato_sauce_1"
+        ],
+        "ketchup": [
+          "ketchup_1"
+        ],
+        "orange_juice": [
+          "orange_juice_1"
+        ],
+        "milk": [
+          "milk_1"
+        ],
+        "butter": [
+          "butter_1"
+        ],
+        "basket": [
+          "basket_1"
+        ]
+      },
+      "scene_properties": {},
+      "initial_state": [
+        [
+          "on",
+          "alphabet_soup_1",
+          "living_room_table_alphabet_soup_init_region"
+        ],
+        [
+          "on",
+          "cream_cheese_1",
+          "living_room_table_cream_cheese_init_region"
+        ],
+        [
+          "on",
+          "tomato_sauce_1",
+          "living_room_table_tomato_sauce_init_region"
+        ],
+        [
+          "on",
+          "ketchup_1",
+          "living_room_table_ketchup_init_region"
+        ],
+        [
+          "on",
+          "milk_1",
+          "living_room_table_milk_init_region"
+        ],
+        [
+          "on",
+          "orange_juice_1",
+          "living_room_table_orange_juice_init_region"
+        ],
+        [
+          "on",
+          "butter_1",
+          "living_room_table_butter_init_region"
+        ],
+        [
+          "on",
+          "basket_1",
+          "living_room_table_basket_init_region"
+        ]
+      ],
+      "goal_state": [
+        [
+          "in",
+          "alphabet_soup_1",
+          "basket_1_contain_region"
+        ],
+        [
+          "in",
+          "tomato_sauce_1",
+          "basket_1_contain_region"
+        ]
+      ],
+      "language_instruction": [
+        "put",
+        "both",
+        "the",
+        "alphabet",
+        "soup",
+        "and",
+        "the",
+        "tomato",
+        "sauce",
+        "in",
+        "the",
+        "basket"
+      ],
+      "obj_of_interest": [
+        "alphabet_soup_1",
+        "tomato_sauce_1",
+        "basket_1"
+      ]
+    }
+  },
+  "action": {
+    "controller": "OperationalSpaceController",
+    "name": "OSC_POSE",
+    "dimension": 7,
+    "limits": [
+      [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "delta": true,
+    "input_min": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "input_max": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "output_min": [
+      -0.05,
+      -0.05,
+      -0.05,
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "output_max": [
+      0.05,
+      0.05,
+      0.05,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaled_example": [
+      0.010000000000000002,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "initial_state": {
+    "count": 50,
+    "shape": [
+      123
+    ],
+    "time": 0.0,
+    "nq": 65,
+    "nv": 57,
+    "expected_flat_length": 123,
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "all_qvel_zero": true
+  },
+  "initial_contacts": [
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "ketchup_1_g1",
+      "body2": "ketchup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.02918000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "orange_juice_1_g1",
+      "body2": "orange_juice_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.026510000000000165
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "milk_1_g1",
+      "body2": "milk_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.026510000000000165
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g17",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.015350000000000159
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g19",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000178
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g12",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000171
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g18",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000171
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g3",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000016
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g11",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000157
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g20",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000157
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g4",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g5",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g6",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g7",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g8",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g9",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g10",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g13",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g14",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g16",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.01496000000000015
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g15",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000143
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g21",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014960000000000143
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g2",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014360000000000171
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "alphabet_soup_1_g1",
+      "body2": "alphabet_soup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.014050000000000146
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "butter_1_g1",
+      "body2": "butter_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.0054700000000001275
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "ketchup_1_g1",
+      "body2": "ketchup_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.00539999999999996
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "milk_1_g1",
+      "body2": "milk_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.0027299999999999963
+    },
+    {
+      "geom1": null,
+      "body1": "living_room_table_col",
+      "movable1": false,
+      "geom2": "cream_cheese_1_g1",
+      "body2": "cream_cheese_1_main",
+      "movable2": true,
+      "count": 4,
+      "min_dist_m": -0.0006960000000001184
+    }
+  ],
+  "observations": {
+    "field_count": 44,
+    "fields": {
+      "robot0_joint_pos": {
+        "shape": [
+          7
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.019882839432642387,
+          -0.18734066496238144,
+          0.0076694004538321505,
+          -2.4034025985475256,
+          0.004964681607500244,
+          2.2453365042123963,
+          0.7948478983158621
+        ]
+      },
+      "robot0_joint_pos_cos": {
+        "shape": [
+          7
+        ],
+        "dtype": "float64",
+        "value": [
+          0.999802342859782,
+          0.982503001206085,
+          0.9999705902924957,
+          -0.7396877724944454,
+          0.9999876759935816,
+          -0.6245382639907591,
+          0.7003933377966596
+        ]
+      },
+      "robot0_joint_pos_sin": {
+        "shape": [
+          7
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.019881529420319025,
+          -0.18624675197445884,
+          0.007669325268743378,
+          -0.6729502204637469,
+          0.004964661212560822,
+          0.7809942104852052,
+          0.713757082185567
+        ]
+      },
+      "robot0_joint_vel": {
+        "shape": [
+          7
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.03749909448654079,
+          -0.005375515997325039,
+          0.7129679373389848
+        ]
+      },
+      "robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.9998181525554218,
+          -0.012162245790032278,
+          0.01463720319440066,
+          -0.001222244104512579
+        ]
+      },
+      "robot0_gripper_qpos": {
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "value": [
+          0.020833,
+          -0.020833
+        ]
+      },
+      "robot0_gripper_qvel": {
+        "shape": [
+          2
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.0
+        ]
+      },
+      "agentview_image": {
+        "shape": [
+          128,
+          128,
+          3
+        ],
+        "dtype": "uint8",
+        "value": null
+      },
+      "robot0_eye_in_hand_image": {
+        "shape": [
+          128,
+          128,
+          3
+        ],
+        "dtype": "uint8",
+        "value": null
+      },
+      "alphabet_soup_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.10200787573587462,
+          -0.15245675106573645,
+          0.45999999999999996
+        ]
+      },
+      "alphabet_soup_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ]
+      },
+      "alphabet_soup_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.06827638251666697,
+          0.14931216365413177,
+          0.2506616374491838
+        ]
+      },
+      "alphabet_soup_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          0.018950073048472404,
+          0.7061139941215515,
+          -0.7078424692153931,
+          0.0017500834073871374
+        ]
+      },
+      "cream_cheese_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.07851475615653067,
+          -0.19384593250156518,
+          0.445
+        ]
+      },
+      "cream_cheese_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "cream_cheese_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.11268496818585517,
+          0.18634711631326636,
+          0.27085785867649287
+        ]
+      },
+      "cream_cheese_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          0.012162248603999615,
+          0.9998180866241455,
+          -0.001222254242748022,
+          0.014637202024459839
+        ]
+      },
+      "tomato_sauce_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.11754099846757801,
+          0.05570959126855292,
+          0.48
+        ]
+      },
+      "tomato_sauce_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ]
+      },
+      "tomato_sauce_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.08828353998212818,
+          -0.05847076585792961,
+          0.2306498354790164
+        ]
+      },
+      "tomato_sauce_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          0.018950073048472404,
+          0.7061139941215515,
+          -0.7078424692153931,
+          0.0017500834073871374
+        ]
+      },
+      "ketchup_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.26846907903339406,
+          -0.14861372060670922,
+          0.48
+        ]
+      },
+      "ketchup_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ketchup_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.23412581776682834,
+          0.1494566777841442,
+          0.22580119511760643
+        ]
+      },
+      "ketchup_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173
+        ]
+      },
+      "orange_juice_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.009968143460064742,
+          -0.2592226309284922,
+          0.48
+        ]
+      },
+      "orange_juice_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "orange_juice_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.04680368895188626,
+          0.2532708836293577,
+          0.23372812307825408
+        ]
+      },
+      "orange_juice_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173
+        ]
+      },
+      "milk_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.04927029324642466,
+          -0.12142612683920982,
+          0.48
+        ]
+      },
+      "milk_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "milk_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.08272122175520882,
+          0.11456113329257192,
+          0.2351673486684529
+        ]
+      },
+      "milk_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173
+        ]
+      },
+      "butter_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.07044719834440541,
+          0.0526561777194373,
+          0.44
+        ]
+      },
+      "butter_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "butter_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.09847329117951446,
+          -0.05987141919450709,
+          0.27613402341926424
+        ]
+      },
+      "butter_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          0.012162248603999615,
+          0.9998180866241455,
+          -0.001222254242748022,
+          0.014637202024459839
+        ]
+      },
+      "basket_1_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.002115741484281673,
+          0.2690198914964389,
+          0.48
+        ]
+      },
+      "basket_1_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float64",
+        "value": [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865475
+        ]
+      },
+      "basket_1_to_robot0_eef_pos": {
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "value": [
+          0.02186276084838902,
+          -0.27452035837789984,
+          0.2344770506434743
+        ]
+      },
+      "basket_1_to_robot0_eef_quat": {
+        "shape": [
+          4
+        ],
+        "dtype": "float32",
+        "value": [
+          -0.6983782052993774,
+          0.7155780792236328,
+          -0.011214321479201317,
+          0.00948580726981163
+        ]
+      },
+      "robot0_proprio-state": {
+        "shape": [
+          39
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.019882839432642387,
+          -0.18734066496238144,
+          0.0076694004538321505,
+          -2.4034025985475256,
+          0.004964681607500244,
+          2.2453365042123963,
+          0.7948478983158621,
+          0.999802342859782,
+          0.982503001206085,
+          0.9999705902924957,
+          -0.7396877724944454,
+          0.9999876759935816,
+          -0.6245382639907591,
+          0.7003933377966596,
+          -0.019881529420319025,
+          -0.18624675197445884,
+          0.007669325268743378,
+          -0.6729502204637469,
+          0.004964661212560822,
+          0.7809942104852052,
+          0.713757082185567,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.03749909448654079,
+          -0.005375515997325039,
+          0.7129679373389848,
+          0.9998181525554218,
+          -0.012162245790032278,
+          0.01463720319440066,
+          -0.001222244104512579,
+          0.020833,
+          -0.020833,
+          0.0,
+          0.0
+        ]
+      },
+      "object-state": {
+        "shape": [
+          112
+        ],
+        "dtype": "float64",
+        "value": [
+          -0.10200787573587462,
+          -0.15245675106573645,
+          0.45999999999999996,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0,
+          -0.06827638251666697,
+          0.14931216365413177,
+          0.2506616374491838,
+          0.018950073048472404,
+          0.7061139941215515,
+          -0.7078424692153931,
+          0.0017500834073871374,
+          0.07851475615653067,
+          -0.19384593250156518,
+          0.445,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.11268496818585517,
+          0.18634711631326636,
+          0.27085785867649287,
+          0.012162248603999615,
+          0.9998180866241455,
+          -0.001222254242748022,
+          0.014637202024459839,
+          -0.11754099846757801,
+          0.05570959126855292,
+          0.48,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0,
+          -0.08828353998212818,
+          -0.05847076585792961,
+          0.2306498354790164,
+          0.018950073048472404,
+          0.7061139941215515,
+          -0.7078424692153931,
+          0.0017500834073871374,
+          -0.26846907903339406,
+          -0.14861372060670922,
+          0.48,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          -0.23412581776682834,
+          0.1494566777841442,
+          0.22580119511760643,
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173,
+          0.009968143460064742,
+          -0.2592226309284922,
+          0.48,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.04680368895188626,
+          0.2532708836293577,
+          0.23372812307825408,
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173,
+          0.04927029324642466,
+          -0.12142612683920982,
+          0.48,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.08272122175520882,
+          0.11456113329257192,
+          0.2351673486684529,
+          -0.4871205687522888,
+          0.498060405254364,
+          -0.5139198899269104,
+          0.5005354285240173,
+          0.07044719834440541,
+          0.0526561777194373,
+          0.44,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.09847329117951446,
+          -0.05987141919450709,
+          0.27613402341926424,
+          0.012162248603999615,
+          0.9998180866241455,
+          -0.001222254242748022,
+          0.014637202024459839,
+          -0.002115741484281673,
+          0.2690198914964389,
+          0.48,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865475,
+          0.02186276084838902,
+          -0.27452035837789984,
+          0.2344770506434743,
+          -0.6983782052993774,
+          0.7155780792236328,
+          -0.011214321479201317,
+          0.00948580726981163
+        ]
+      }
+    }
+  },
+  "robot0_proprio_layout": [
+    {
+      "field": "robot0_joint_pos",
+      "start": 0,
+      "stop": 7
+    },
+    {
+      "field": "robot0_joint_pos_cos",
+      "start": 7,
+      "stop": 14
+    },
+    {
+      "field": "robot0_joint_pos_sin",
+      "start": 14,
+      "stop": 21
+    },
+    {
+      "field": "robot0_joint_vel",
+      "start": 21,
+      "stop": 28
+    },
+    {
+      "field": "robot0_eef_pos",
+      "start": 28,
+      "stop": 31
+    },
+    {
+      "field": "robot0_eef_quat",
+      "start": 31,
+      "stop": 35
+    },
+    {
+      "field": "robot0_gripper_qpos",
+      "start": 35,
+      "stop": 37
+    },
+    {
+      "field": "robot0_gripper_qvel",
+      "start": 37,
+      "stop": 39
+    }
+  ],
+  "object_layout": [
+    {
+      "field": "alphabet_soup_1_pos",
+      "start": 0,
+      "stop": 3
+    },
+    {
+      "field": "alphabet_soup_1_quat",
+      "start": 3,
+      "stop": 7
+    },
+    {
+      "field": "alphabet_soup_1_to_robot0_eef_pos",
+      "start": 7,
+      "stop": 10
+    },
+    {
+      "field": "alphabet_soup_1_to_robot0_eef_quat",
+      "start": 10,
+      "stop": 14
+    },
+    {
+      "field": "cream_cheese_1_pos",
+      "start": 14,
+      "stop": 17
+    },
+    {
+      "field": "cream_cheese_1_quat",
+      "start": 17,
+      "stop": 21
+    },
+    {
+      "field": "cream_cheese_1_to_robot0_eef_pos",
+      "start": 21,
+      "stop": 24
+    },
+    {
+      "field": "cream_cheese_1_to_robot0_eef_quat",
+      "start": 24,
+      "stop": 28
+    },
+    {
+      "field": "tomato_sauce_1_pos",
+      "start": 28,
+      "stop": 31
+    },
+    {
+      "field": "tomato_sauce_1_quat",
+      "start": 31,
+      "stop": 35
+    },
+    {
+      "field": "tomato_sauce_1_to_robot0_eef_pos",
+      "start": 35,
+      "stop": 38
+    },
+    {
+      "field": "tomato_sauce_1_to_robot0_eef_quat",
+      "start": 38,
+      "stop": 42
+    },
+    {
+      "field": "ketchup_1_pos",
+      "start": 42,
+      "stop": 45
+    },
+    {
+      "field": "ketchup_1_quat",
+      "start": 45,
+      "stop": 49
+    },
+    {
+      "field": "ketchup_1_to_robot0_eef_pos",
+      "start": 49,
+      "stop": 52
+    },
+    {
+      "field": "ketchup_1_to_robot0_eef_quat",
+      "start": 52,
+      "stop": 56
+    },
+    {
+      "field": "orange_juice_1_pos",
+      "start": 56,
+      "stop": 59
+    },
+    {
+      "field": "orange_juice_1_quat",
+      "start": 59,
+      "stop": 63
+    },
+    {
+      "field": "orange_juice_1_to_robot0_eef_pos",
+      "start": 63,
+      "stop": 66
+    },
+    {
+      "field": "orange_juice_1_to_robot0_eef_quat",
+      "start": 66,
+      "stop": 70
+    },
+    {
+      "field": "milk_1_pos",
+      "start": 70,
+      "stop": 73
+    },
+    {
+      "field": "milk_1_quat",
+      "start": 73,
+      "stop": 77
+    },
+    {
+      "field": "milk_1_to_robot0_eef_pos",
+      "start": 77,
+      "stop": 80
+    },
+    {
+      "field": "milk_1_to_robot0_eef_quat",
+      "start": 80,
+      "stop": 84
+    },
+    {
+      "field": "butter_1_pos",
+      "start": 84,
+      "stop": 87
+    },
+    {
+      "field": "butter_1_quat",
+      "start": 87,
+      "stop": 91
+    },
+    {
+      "field": "butter_1_to_robot0_eef_pos",
+      "start": 91,
+      "stop": 94
+    },
+    {
+      "field": "butter_1_to_robot0_eef_quat",
+      "start": 94,
+      "stop": 98
+    },
+    {
+      "field": "basket_1_pos",
+      "start": 98,
+      "stop": 101
+    },
+    {
+      "field": "basket_1_quat",
+      "start": 101,
+      "stop": 105
+    },
+    {
+      "field": "basket_1_to_robot0_eef_pos",
+      "start": 105,
+      "stop": 108
+    },
+    {
+      "field": "basket_1_to_robot0_eef_quat",
+      "start": 108,
+      "stop": 112
+    }
+  ],
+  "coordinate_checks": "PASS: world position, xyzw, relative position in eef frame",
+  "semantics_source": {
+    "reward": {
+      "file": "/root/work/armory/third_party/libero/libero/libero/envs/bddl_base_domain.py",
+      "line": 165,
+      "code": "    def reward(self, action=None):\n        \"\"\"\n        Reward function for the task.\n\n        Sparse un-normalized reward:\n\n            - a discrete reward of 1.0 is provided if the task succeeds.\n\n        Args:\n            action (np.array): [NOT USED]\n\n        Returns:\n            float: reward value\n        \"\"\"\n        reward = 0.0\n\n        # sparse completion reward\n        if self._check_success():\n            reward = 1.0\n\n        # Scale reward if requested\n        if self.reward_scale is not None:\n            reward *= self.reward_scale / 1.0\n\n        return reward\n"
+    },
+    "success": {
+      "file": "/root/work/armory/third_party/libero/libero/libero/envs/problems/libero_living_room_tabletop_manipulation.py",
+      "line": 136,
+      "code": "    def _check_success(self):\n        \"\"\"\n        Check if the goal is achieved. Consider conjunction goals at the moment\n        \"\"\"\n        goal_state = self.parsed_problem[\"goal_state\"]\n        result = True\n        for state in goal_state:\n            result = self._eval_predicate(state) and result\n        return result\n"
+    },
+    "libero_step": {
+      "file": "/root/work/armory/third_party/libero/libero/libero/envs/bddl_base_domain.py",
+      "line": 800,
+      "code": "    def step(self, action):\n        if self.action_dim == 4 and len(action) > 4:\n            # Convert OSC_POSITION action\n            action = np.array(action)\n            action = np.concatenate((action[:3], action[-1:]), axis=-1)\n\n        obs, reward, done, info = super().step(action)\n        done = self._check_success()\n\n        return obs, reward, done, info\n"
+    },
+    "gripper": {
+      "file": "/root/work/armory/.venv/lib/python3.11/site-packages/robosuite/models/grippers/panda_gripper.py",
+      "line": 43,
+      "code": "    def format_action(self, action):\n        \"\"\"\n        Maps continuous action into binary output\n        -1 => open, 1 => closed\n\n        Args:\n            action (np.array): gripper-specific action\n\n        Raises:\n            AssertionError: [Invalid action dimension size]\n        \"\"\"\n        assert len(action) == self.dof\n        self.current_action = np.clip(\n            self.current_action + np.array([-1.0, 1.0]) * self.speed * np.sign(action), -1.0, 1.0\n        )\n        return self.current_action\n"
+    }
+  },
+  "goal_predicates": [
+    {
+      "predicate": [
+        "in",
+        "alphabet_soup_1",
+        "basket_1_contain_region"
+      ],
+      "satisfied": false
+    },
+    {
+      "predicate": [
+        "in",
+        "tomato_sauce_1",
+        "basket_1_contain_region"
+      ],
+      "satisfied": false
+    }
+  ],
+  "time_model": {
+    "control_hz": 20,
+    "nominal_step_s": 0.05,
+    "measured_step_s": 0.05000000000000003,
+    "physics_dt_s": 0.002,
+    "scheduled_substeps": 25,
+    "horizon": 1000,
+    "horizon_sim_s": 50.0,
+    "chunk50_sim_s": 2.5,
+    "reward": 0.0,
+    "returned_done": false,
+    "underlying_done": false,
+    "info": {}
+  },
+  "horizon_test": [
+    {
+      "step": 1,
+      "reward": 0.0,
+      "returned_success": false,
+      "underlying_done": false
+    },
+    {
+      "step": 2,
+      "reward": 0.0,
+      "returned_success": false,
+      "underlying_done": false
+    },
+    {
+      "step": 3,
+      "reward": 0.0,
+      "returned_success": false,
+      "underlying_done": true
+    }
+  ],
+  "gripper_trials_minus1_open_plus1_close": [
+    {
+      "command": -1.0,
+      "start_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "end_qpos": [
+        0.03923559277670113,
+        -0.03923512385557802
+      ],
+      "internal_target": [
+        1.0,
+        -1.0
+      ],
+      "zero_preserved_target": true
+    },
+    {
+      "command": 0.0,
+      "start_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "end_qpos": [
+        0.02035039950276421,
+        -0.020349923082645906
+      ],
+      "internal_target": [
+        0.0,
+        0.0
+      ],
+      "zero_preserved_target": true
+    },
+    {
+      "command": 1.0,
+      "start_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "end_qpos": [
+        0.0007662885462818484,
+        -0.0007658027041707727
+      ],
+      "internal_target": [
+        -1.0,
+        1.0
+      ],
+      "zero_preserved_target": true
+    }
+  ],
+  "armory_preprocessing": {
+    "state": [
+      -0.03749909448654079,
+      -0.005375515997325039,
+      0.7129679373389848,
+      3.143467755271147,
+      -0.038238581060898946,
+      0.04601994487832606,
+      0.020833,
+      -0.020833
+    ],
+    "image_shape": [
+      224,
+      224,
+      3
+    ],
+    "wrist_shape": [
+      224,
+      224,
+      3
+    ],
+    "dtype": "uint8",
+    "prompt": "put both the alphabet soup and the tomato sauce in the basket",
+    "source": {
+      "file": "/root/work/armory/src/evaluation/envs/libero.py",
+      "line": 201,
+      "code": "    @override\n    def get_observation(self) -> LiberoObservation:\n        if self._last_obs is None:\n            raise RuntimeError(\"Observation is not set. Call reset() first.\")\n\n        obs = self._last_obs\n\n        # IMPORTANT: rotate 180 degrees to match train preprocessing.\n        img = np.ascontiguousarray(obs[\"agentview_image\"][::-1, ::-1])\n        wrist_img = np.ascontiguousarray(obs[\"robot0_eye_in_hand_image\"][::-1, ::-1])\n        img = image_tools.convert_to_uint8(\n            image_tools.resize_with_pad(img, RESIZE_SIZE, RESIZE_SIZE)\n        )\n        wrist_img = image_tools.convert_to_uint8(\n            image_tools.resize_with_pad(wrist_img, RESIZE_SIZE, RESIZE_SIZE)\n        )\n\n        state = np.concatenate(\n            (\n                obs[\"robot0_eef_pos\"],\n                quat2axisangle(obs[\"robot0_eef_quat\"]),\n                obs[\"robot0_gripper_qpos\"],\n            )\n        )\n\n        return LiberoObservation(\n            step=self._step_counter,\n            state=state,\n            image=img,\n            wrist_image=wrist_img,\n            prompt=str(self._task_description),\n        )\n"
+    },
+    "stop_logic": {
+      "file": "/root/work/armory/src/evaluation/envs/libero.py",
+      "line": 234,
+      "code": "    @override\n    def apply_action(self, action: Action) -> None:\n        \"\"\"Take one low-level action step in the LIBERO simulator.\"\"\"\n        obs, _, libero_success, _ = self._env.step(action.action.tolist())\n        # LIBERO overrides `done` with _check_success(), losing horizon-based\n        # termination, so also check the underlying robosuite env's done flag.\n        self._last_obs = obs\n        self._step_counter += 1\n\n        if libero_success:\n            self._success = True\n            self._done = True\n        elif self._env.env.done or self._step_counter >= self._max_episode_steps:\n            self._done = True\n"
+    }
+  },
+  "armory_serialization": {
+    "payload_bytes": 301358,
+    "lossless_roundtrip": true,
+    "pack_array_source": {
+      "file": "/root/work/armory/armory-client/src/armory_client/msgpack_numpy.py",
+      "line": 40,
+      "code": "def pack_array(obj):\n    if (isinstance(obj, (np.ndarray, np.generic))) and obj.dtype.kind in (\n        \"V\",\n        \"O\",\n        \"c\",\n    ):\n        raise ValueError(f\"Unsupported dtype: {obj.dtype}\")\n\n    if is_dataclass(obj) and not isinstance(obj, type):\n        return _to_builtin(obj)\n\n    if isinstance(obj, np.ndarray):\n        return {\n            b\"__ndarray__\": True,\n            b\"data\": obj.tobytes(),\n            b\"dtype\": obj.dtype.str,\n            b\"shape\": obj.shape,\n        }\n\n    if isinstance(obj, np.generic):\n        return {\n            b\"__npgeneric__\": True,\n            b\"data\": obj.item(),\n            b\"dtype\": obj.dtype.str,\n        }\n\n    if isinstance(obj, Enum):\n        return obj.value\n\n    return obj\n"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "model": "lerobot/pi05_libero_finetuned",
+  "revision": "8e174154ef5f6c60a8da12ae99c303d8963138c1",
+  "dtype": "bfloat16",
+  "compile": false,
+  "quantization": false,
+  "action_chunk": 50,
+  "model_load_s": 7.204965816999902,
+  "restored_tied_keys": {
+    "model.paligemma_with_expert.paligemma.model.language_model.embed_tokens.weight": "model.paligemma_with_expert.paligemma.lm_head.weight"
+  },
+  "restored_nonpersistent_buffers": [
+    "model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.position_ids",
+    "model.paligemma_with_expert.paligemma.model.language_model.rotary_emb.inv_freq",
+    "model.paligemma_with_expert.gemma_expert.model.rotary_emb.inv_freq"
+  ],
+  "parameter_bytes": 7472956256,
+  "torch": "2.7.1+cu126",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

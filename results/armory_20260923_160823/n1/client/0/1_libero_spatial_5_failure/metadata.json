@@ -1,0 +1,10 @@
+{
+    "robot_idx": 0,
+    "success": false,
+    "steps_taken": 280,
+    "task_suite_name": "libero_spatial",
+    "task_id": 5,
+    "task_language": "pick up the black bowl on the ramekin and place it on the plate",
+    "episode_idx": 1,
+    "truncated": false
+}

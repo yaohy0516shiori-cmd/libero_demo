@@ -1,0 +1,17 @@
+{
+  "robots": [
+    1,
+    4
+  ],
+  "seconds": 120.0,
+  "port": 8080,
+  "control_hz": 20,
+  "out": "/root/work/libero_vla_demo/output/armory_20260923_155746",
+  "model": "lerobot/pi05_libero_finetuned",
+  "revision": "8e174154ef5f6c60a8da12ae99c303d8963138c1",
+  "framework": "Armory original server/scheduler/PolicyAgent/action broker",
+  "max_batch_size": 1,
+  "wait_semantics": "asynchronous; consume old actions, then null actions",
+  "started_utc": "2026-09-23T20:57:46Z",
+  "armory_commit": "e876202ede99723f4be40d8d7cab31847bbd14a9"
+}

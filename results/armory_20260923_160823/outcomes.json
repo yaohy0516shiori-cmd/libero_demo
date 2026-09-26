@@ -1,0 +1,20 @@
+[
+  {
+    "N": 1,
+    "successful": 1,
+    "completed_failure": 1,
+    "truncated": 1,
+    "model_load_s": 7.204965816999902,
+    "reset_and_settle_mean_ms": 1819.1948240005331,
+    "max_wall_clock_interval_error_ms": 1472.8406857539085
+  },
+  {
+    "N": 4,
+    "successful": 6,
+    "completed_failure": 1,
+    "truncated": 4,
+    "model_load_s": 7.967238584998995,
+    "reset_and_settle_mean_ms": 2264.4577522667532,
+    "max_wall_clock_interval_error_ms": 1450.8214873167162
+  }
+]

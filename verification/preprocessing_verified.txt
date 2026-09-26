@@ -1,0 +1,1 @@
+Official checkpoint processor loaded; state8 + two RGB cameras; local GemmaTokenizer matches official OpenPI SentencePiece BOS encoding on two task/state prompts.

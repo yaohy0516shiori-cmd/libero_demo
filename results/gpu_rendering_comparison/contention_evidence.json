@@ -1,0 +1,115 @@
+[
+  {
+    "N": 1,
+    "real_completed_model_calls": 12,
+    "inference_ms": [
+      11581.648676999976,
+      12460.593440999219,
+      13314.356670000052,
+      13711.695821999456,
+      11366.705811999054,
+      11295.976089999385,
+      11183.62099099977,
+      9081.572909000897,
+      12093.445458000133,
+      10482.45711799973,
+      9670.95186000006,
+      1732.0094520000566
+    ],
+    "max_memory_used_mib": 7928.0,
+    "min_free_mib": 28.0,
+    "mean_used_mib": 7905.305343511451,
+    "episodes": [
+      {
+        "robot_idx": "0",
+        "success": "False",
+        "steps_taken": "135",
+        "task_suite_name": "libero_spatial",
+        "task_id": "5",
+        "task_language": "pick up the black bowl on the ramekin and place it on the plate",
+        "episode_idx": "0",
+        "truncated": "True",
+        "starvation_steps": "84",
+        "observed_steps": "135",
+        "planner_starvation_seconds": "4.2",
+        "post_first_starvation_steps": "70",
+        "post_first_observed_steps": "121"
+      }
+    ],
+    "warning": "Historical client wall timestamps can shift; model inference durations use perf_counter. Last model calls may finish after client window."
+  },
+  {
+    "N": 4,
+    "real_completed_model_calls": 2,
+    "inference_ms": [
+      142375.59260099987,
+      1008.0739370005176
+    ],
+    "max_memory_used_mib": 7944.0,
+    "min_free_mib": 13.0,
+    "mean_used_mib": 7927.593333333333,
+    "episodes": [
+      {
+        "robot_idx": "0",
+        "success": "False",
+        "steps_taken": "51",
+        "task_suite_name": "libero_spatial",
+        "task_id": "5",
+        "task_language": "pick up the black bowl on the ramekin and place it on the plate",
+        "episode_idx": "0",
+        "truncated": "True",
+        "starvation_steps": "51",
+        "observed_steps": "51",
+        "planner_starvation_seconds": "2.55",
+        "post_first_starvation_steps": "0",
+        "post_first_observed_steps": "0"
+      },
+      {
+        "robot_idx": "1",
+        "success": "False",
+        "steps_taken": "52",
+        "task_suite_name": "libero_spatial",
+        "task_id": "2",
+        "task_language": "pick up the black bowl from table center and place it on the plate",
+        "episode_idx": "0",
+        "truncated": "True",
+        "starvation_steps": "52",
+        "observed_steps": "52",
+        "planner_starvation_seconds": "2.6",
+        "post_first_starvation_steps": "0",
+        "post_first_observed_steps": "0"
+      },
+      {
+        "robot_idx": "2",
+        "success": "False",
+        "steps_taken": "52",
+        "task_suite_name": "libero_spatial",
+        "task_id": "6",
+        "task_language": "pick up the black bowl next to the cookie box and place it on the plate",
+        "episode_idx": "0",
+        "truncated": "True",
+        "starvation_steps": "52",
+        "observed_steps": "52",
+        "planner_starvation_seconds": "2.6",
+        "post_first_starvation_steps": "0",
+        "post_first_observed_steps": "0"
+      },
+      {
+        "robot_idx": "3",
+        "success": "False",
+        "steps_taken": "49",
+        "task_suite_name": "libero_spatial",
+        "task_id": "9",
+        "task_language": "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "episode_idx": "0",
+        "truncated": "True",
+        "starvation_steps": "49",
+        "observed_steps": "49",
+        "planner_starvation_seconds": "2.45",
+        "post_first_starvation_steps": "0",
+        "post_first_observed_steps": "0"
+      }
+    ],
+    "warning": "Historical client wall timestamps can shift; model inference durations use perf_counter. Last model calls may finish after client window."
+  }
+]

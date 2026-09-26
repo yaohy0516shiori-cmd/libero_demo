@@ -1,0 +1,16 @@
+{
+  "config_name": "lerobot_pi05_libero_finetuned",
+  "checkpoint_dir": "/root/work/libero_vla_demo/models/pi05_finetuned",
+  "action_horizon": 50,
+  "action_dim": 7,
+  "num_steps": 10,
+  "max_batch_size": 1,
+  "env": "libero",
+  "scheduling_algorithm": "greedy-deadline",
+  "tunnel_url": null,
+  "location": null,
+  "scheduler": {
+    "scheduling_algorithm": "greedy-deadline",
+    "alpha": 1.0
+  }
+}

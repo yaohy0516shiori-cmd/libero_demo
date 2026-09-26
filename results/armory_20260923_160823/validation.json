@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "n1/robot_0/0: native and instrumented action source match",
+    "n1/robot_0/1: native and instrumented action source match",
+    "n1/robot_0/2: native and instrumented action source match",
+    "n4/robot_0/0: native and instrumented action source match",
+    "n4/robot_0/1: native and instrumented action source match",
+    "n4/robot_1/0: native and instrumented action source match",
+    "n4/robot_1/1: native and instrumented action source match",
+    "n4/robot_1/2: native and instrumented action source match",
+    "n4/robot_1/3: native and instrumented action source match",
+    "n4/robot_2/0: native and instrumented action source match",
+    "n4/robot_2/1: native and instrumented action source match",
+    "n4/robot_2/2: native and instrumented action source match",
+    "n4/robot_3/0: native and instrumented action source match",
+    "n4/robot_3/1: native and instrumented action source match",
+    "server phases fit within selected observation ready to response duration (monotonic clock)",
+    "simulation advances 0.05 s per environment step",
+    "only actual trained model calls counted; warmup excluded"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "robot_idx": 1,
+    "success": false,
+    "steps_taken": 44,
+    "task_suite_name": "libero_spatial",
+    "task_id": 2,
+    "task_language": "pick up the black bowl from table center and place it on the plate",
+    "episode_idx": 3,
+    "truncated": true
+}
