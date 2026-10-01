@@ -15,6 +15,7 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--out",type=Path,required=True)
     ap.add_argument("--port",type=int,default=8080)
+    ap.add_argument("--host",default="127.0.0.1",help="0.0.0.0 to accept robots from other machines")
     args=ap.parse_args()
     config=ServerConfig(max_batch_size=1,output_dir=args.out,
         scheduler=SchedulerConfig(scheduling_algorithm="greedy-deadline"))
@@ -22,7 +23,7 @@ def main():
         checkpoint_dir=str(Path(__file__).resolve().parents[1]/"models/pi05_finetuned"),
         action_horizon=50,action_dim=7,num_steps=10,max_batch_size=1,env="libero",
         scheduling_algorithm="greedy-deadline")
-    PolicyServer(metadata,Pi05Factory(args.out/"server"),config).serve_forever(host="127.0.0.1",port=args.port)
+    PolicyServer(metadata,Pi05Factory(args.out/"server"),config).serve_forever(host=args.host,port=args.port)
 if __name__=="__main__":
     mp.set_start_method("fork",force=True)
     main()

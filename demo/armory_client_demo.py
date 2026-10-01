@@ -122,6 +122,7 @@ def main():
     ap.add_argument("--robots",type=int,required=True);ap.add_argument("--out",type=Path,required=True)
     ap.add_argument("--seconds",type=float,default=90);ap.add_argument("--port",type=int,default=8080)
     ap.add_argument("--control-hz",type=int,default=20)
+    ap.add_argument("--host",default="127.0.0.1",help="address of the model server")
     args=ap.parse_args()
     if args.robots not in (1,4):raise ValueError("Choose N=1 or N=4 for the requested demos")
     global TRACE_ROOT
@@ -130,7 +131,7 @@ def main():
     config=ExperimentConfig.model_validate(dict(
         environment={"kind":"libero","task_suite_name":"libero_spatial","max_steps_per_episode":280},
         robots=[robot for _ in range(args.robots)],time_limit=args.seconds,seed=7))
-    runner.main(runner.Args(experiment_config=config,output_dir=args.out,host="127.0.0.1",port=args.port,
+    runner.main(runner.Args(experiment_config=config,output_dir=args.out,host=args.host,port=args.port,
         scheduler_config=SchedulerConfig(scheduling_algorithm="greedy-deadline")))
 if __name__=="__main__":
     multiprocessing.set_start_method("forkserver")

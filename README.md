@@ -83,6 +83,16 @@ MUJOCO_GL=egl $ARMORY_ROOT/.venv/bin/python tools/capture_observation.py
 
 Each run writes a new `results/armory_<date>_<time>/` with `n1/` and `n4/`. Cameras are rendered on the CPU by default (`--renderer osmesa`) and the model runs on the GPU; `--renderer egl` renders on the GPU instead (see the results below for why that is not the default). N=4 means four independent LIBERO scenes sharing one model that serves one request at a time. It is not four model copies and not four arms in one scene.
 
+**Server and robots on separate machines.** `run_armory_demos.py` starts both on one machine. To split them, start the two halves yourself:
+
+```bash
+# model machine
+.venv/bin/python demo/armory_server.py --out results/split/serve --host 0.0.0.0 --port 8080
+# simulation machine
+MUJOCO_GL=egl $ARMORY_ROOT/.venv/bin/python demo/armory_client_demo.py --robots 1 \
+    --out results/split/client --host <model machine address> --port 8080
+```
+
 **Analysis** (regenerates tables, timing plots and wall-clock videos inside a run; raw logs are never modified; needs the monotonic-clock fields introduced with this run, so it does not apply to the earlier GPU-rendering comparison):
 
 ```bash
